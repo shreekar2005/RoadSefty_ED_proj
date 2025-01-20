@@ -20,6 +20,6 @@ python runfor_iriuncam.py --weights yolov7-tiny.pt --conf 0.55 --source 0 --view
 
 # Demos 
 
-demo for how our hardware works :
+demo for how our hardware works : https://youtu.be/T79_9zY4GBc
 
-demo for testing model in real world :
+demo for testing model in real world : https://youtu.be/4jCdEZ5DRnA
