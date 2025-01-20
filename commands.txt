@@ -1,0 +1,13 @@
+Run this command to run the app
+
+python detect_count_and_track.py --weights yolov7-tiny.pt --conf 0.55 --source traffic.mp4 --view-img --nosave --no-trace --device 0
+
+python runforcamTOP.py --weights yolov7-tiny.pt --conf 0.55 --source EDVIDTOPVIEW.mp4 --view-img --nosave --no-trace --device 0
+
+python runforcamTOPwithpico.py --weights yolov7-tiny.pt --conf 0.55 --source EDVIDTOPVIEW.mp4 --view-img --nosave --no-trace --device 0
+
+python runforcamSIDE.py --weights yolov7-tiny.pt --conf 0.55 --source EDVIDSIDEVIEW.mp4 --view-img --nosave --no-trace --device 0
+
+python runforcamSIDEwithpico.py --weights yolov7-tiny.pt --conf 0.55 --source EDVIDSIDEVIEW.mp4 --view-img --nosave --no-trace --device 0
+
+python runfor_iriuncam.py --weights yolov7-tiny.pt --conf 0.55 --source 0 --view-img --nosave --no-trace --device 0
